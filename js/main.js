@@ -1,8 +1,8 @@
 
- AOS.init({
- 	duration: 800,
- 	easing: 'slide'
- });
+ // AOS.init({
+ // 	duration: 800,
+ // 	easing: 'slide'
+ // });
 
 
 
@@ -153,29 +153,29 @@ $("#color").click( function() {
 
 //輪播在這裡
 	var carousel = function() {
-		$('.home-slider').owlCarousel({
-	    loop:false,
-	    autoplay: false,
-	    margin:0,
-	    // animateOut: 'fadeOut',
-	    // animateIn: 'fadeIn',
-	    nav:false,
-	    autoplayHoverPause: false,
-	    autoplayTimeout: 10000,
-	    items: 1,
-	    // navText : ["<span class='ion-md-arrow-back'></span>","<span class='ion-chevron-right'></span>"],
-	    // responsive:{
-	    //   0:{
-	    //     items:1
-	    //   },
-	    //   600:{
-	    //     items:1
-	    //   },
-	    //   1000:{
-	    //     items:1
-	    //   }
-	    // }
-		});
+		// $('.ewhome-sliders').owlCarousel({
+	  //   loop:false,
+	  //   autoplay: false,
+	  //   margin:0,
+	  //   // animateOut: 'fadeOut',
+	  //   // animateIn: 'fadeIn',
+	  //   nav:false,
+	  //   autoplayHoverPause: false,
+	  //   autoplayTimeout: 10000,
+	  //   items: 1,
+	  //   // navText : ["<span class='ion-md-arrow-back'></span>","<span class='ion-chevron-right'></span>"],
+	  //   // responsive:{
+	  //   //   0:{
+	  //   //     items:1
+	  //   //   },
+	  //   //   600:{
+	  //   //     items:1
+	  //   //   },
+	  //   //   1000:{
+	  //   //     items:1
+	  //   //   }
+	  //   // }
+		// });
 		$('.carousel-testimony').owlCarousel({
 			autoplay: true,
 			autoHeight: true,
