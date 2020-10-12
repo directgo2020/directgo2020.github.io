@@ -76,7 +76,7 @@
                 <div class="text">
 
                   <h1 class="mb-4 mt-3">RH × 得利購<br><span>軟裝服務設計</span></h1>
-                  <p>台灣獨家合作。</br/>
+                  <p>台灣獨家合作。<br>
                   RH官方設計師，客製軟裝規劃，<br>
                   享官網會員價 (6 - 8折)。</p>
                   <p>
@@ -84,12 +84,12 @@
                   </p>
                    <p><a href="#services-section" class="btn btn-primary bt-go ">我要預約</a></p>
                    <br>
-                   
+
                   <p>
                     不需要設計服務嗎？<br>
                     自行選購RH商品。</p>
                     <p><a href="https://directgo.tw/blog/designfurniture/rh" target="_blank"  class="btn btn-primary bt-go " >點我逛逛</a></p>
-                  
+
                 </div>
               </div>
 
@@ -582,6 +582,17 @@
       }
       });
     });
+  </script>
+
+  <script>
+    $(function(){
+      if($(window).width()<480){ //當視窗小於480時才運作
+        $('.navbar a').on('click', function(){
+            $('.navbar-toggler').click();
+          });
+        }
+    })
+
   </script>
 
   </body>
