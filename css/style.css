@@ -8754,7 +8754,7 @@ h1, h2, h3, h4, h5,
               width: 100%;
               z-index: 0; }
               .owl-carousel.home-slider .slider-item .slider-text .one-third .overlay {
-                opacity: .3; }
+                opacity: .45; } /* 手機黑底 */
               .owl-carousel.home-slider .slider-item .slider-text .one-third:after {
                 opacity: 0; }
             .owl-carousel.home-slider .slider-item .slider-text .rhbigimg {
@@ -8825,9 +8825,22 @@ h1, h2, h3, h4, h5,
         .owl-carousel.home-slider .slider-item .slider-text .text {
           position: relative;
           z-index: 1; }
+          /* 手機的白底 */
             @media (max-width: 991px) {
              .owl-carousel.home-slider .slider-item .slider-text .text {
-            margin: auto; } }
+             /* background-color:rgba(255, 255, 255,0.85);
+                -webkit-box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.5);
+               -moz-box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.5);
+               box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.5); 
+                 -webkit-border-radius: 5px; 
+                -moz-border-radius: 5px;
+                 -ms-border-radius: 5px;
+                 border-radius: 5px; */
+              padding-top:20px;
+              padding-bottom: 20px;
+              padding-right: 20px;
+              padding-left: 20px;
+             margin: auto; } }
         .owl-carousel.home-slider .slider-item .slider-text h1 {
           font-size: 44px;
           color: #151515;
@@ -8844,10 +8857,10 @@ h1, h2, h3, h4, h5,
               font-size: 40px; } }
         .owl-carousel.home-slider .slider-item .slider-text p {
           color: rgba(0, 0, 0, 0.8);
-          font-weight: 400; }
+          font-weight: 500; }
           @media (max-width: 991.98px) {
             .owl-carousel.home-slider .slider-item .slider-text p {
-              color: rgba(255, 255, 255,1);
+              color: #fff;
               font-size: 16px; } } /*手機的多字*/
     .owl-carousel.home-slider .owl-nav {
       position: absolute;
@@ -8973,7 +8986,7 @@ h1, h2, h3, h4, h5,
     .slider-text h1 {
       font-size: 40px; } }
 
-// 首頁最下面多字那裡
+/* 首頁最下面多字那裡 */
 .slider-text p {
   font-size: 18px;
   line-height: 1.5;
@@ -9035,13 +9048,13 @@ h1, h2, h3, h4, h5,
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   border-radius: 5px;
-  -webkit-box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
-  -moz-box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
-  box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09); }
+  -webkit-box-shadow: 3px 9px 9px -5px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 3px 9px 9px -5px rgba(0, 0, 0, 0.3);
+  box-shadow: 3px 9px 9px -5px rgba(0, 0, 0, 0.3); }
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
   .btn.btn-primary {
-    background: #00acc1;
+    background: #000;
    /* background: -moz-linear-gradient(-45deg, #00acc1 0%, #6ba5c7 100%);
     background: -webkit-gradient(left top, right bottom, color-stop(0%, #00acc1), color-stop(100%, #6ba5c7));
     background: -webkit-linear-gradient(-45deg, #00acc1 0%, #6ba5c7 100%);
@@ -9053,9 +9066,9 @@ h1, h2, h3, h4, h5,
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00acc1', endColorstr='#6ba5c7', GradientType=1 ); */
     /* border: 1px solid #4d4d4d !important; */
     /*color: #fff !important;*/ }
-    .btn.btn-primary:hover {
+        .btn.btn-primary:hover {
      /* border: 1px solid #4d4d4d; */
-      background: #3f3f3f;
+      background: #1f1f1f;
      /* background: -moz-linear-gradient(-45deg, #3f3f3f 0%, #4d4d4d 100%);
       background: -webkit-gradient(left top, right bottom, color-stop(0%, #3f3f3f), color-stop(100%, #4d4d4d));
       background: -webkit-linear-gradient(-45deg, #3f3f3f 0%, #4d4d4d 100%);
@@ -9067,6 +9080,17 @@ h1, h2, h3, h4, h5,
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f3f3f', endColorstr='#4d4d4d', GradientType=1 ); */
       color: #18ffff;
        }
+    @media (max-width: 991.98px) {  /* 手機的按鈕 */
+     .btn.btn-primary {
+      color: #000;
+      font-weight: 500;
+      background-color: #fff;
+  -webkit-box-shadow: 3px 9px 9px -5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 3px 9px 9px -5px rgba(0, 0, 0, 0.5);
+  box-shadow: 3px 9px 9px -5px rgba(0, 0, 0, 0.5); 
+    }
+    }
+
     .btn.btn-primary.btn-outline-primary {
      /* border: 2px solid #4d4d4d !important; */
       background: transparent !important;
