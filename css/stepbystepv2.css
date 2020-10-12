@@ -105,7 +105,7 @@ h1 {
 }
 
 #progress-bar-container li.active:before, #progress-bar-container li:hover:before {
-	border:solid 2px #666;
+	border:solid 2px #f3c54b;
 }
 
 #progress-bar-container li {
@@ -132,7 +132,7 @@ h1 {
 }
 
 #progress-bar-container li.active, #progress-bar-container li:hover {
-	color:#00acc1;
+	color:#423d30;
 }
 
 #progress-bar-container li:after {
@@ -155,7 +155,7 @@ h1 {
 }
 
 #progress-bar-container li.active:after {
-	background:#207893;
+	background:#987414;
 }
 
 #progress-bar-container #line {
@@ -175,11 +175,11 @@ h1 {
 	content:" ";
 	width:5%;
 	height:100%;
-	background: #207893;
-	background: -moz-linear-gradient(left, #207893 0%, #26c6da 100%);
-	background: -webkit-linear-gradient(left, #207893 0%,#26c6da 100%);
-	background: linear-gradient(to right, #207893 0%,#26c6da 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#207893', endColorstr='#2ea3b7',GradientType=1 );
+	background: #d2a836;
+	background: -moz-linear-gradient(left, #d2a836 0%, #f3c54b 100%);
+	background: -webkit-linear-gradient(left, #d2a836 0%,#f3c54b 100%);
+	background: linear-gradient(to right, #d2a836 0%,#f3c54b 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2a836', endColorstr='#f3c54b',GradientType=1 );
 	position:absolute;
 	z-index:2;
 	border-radius:50px;
